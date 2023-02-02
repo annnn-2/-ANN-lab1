@@ -99,7 +99,7 @@
 
 Для однослойного персептрона точность больше 0.85 - хватило 5 эпох, подошли параметры: размер батча - 200, learning rate - 0.001, функция нормировки - log_Softmax, функция активации - relu, функция ошибки - nll_loss.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/1l.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/1l.png)
 
 ![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/1ll.png)
 
