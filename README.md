@@ -57,41 +57,41 @@
 
 Реализован однослойный персептрон. Обучениие дало точность - accuracy=0.8720238095238095. 
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/1layer.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/1layer.png)
 
 Точность больше 0.85 - хватило одной эпохи, подошли параметры: размер батча - 200, learning rate - 0.1, функция нормировки - Softmax, функция активации - tanh, функция ошибки - CrossEntropy.
 
 Далее были реализованы персептроны с количеством слоев - 1,2,3. 
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/layer1-7.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/layer1-7.png)
 
 Матрица для сети с количеством слоев - 7: 
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/conf_matr_7_layers.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/conf_matr_7_layers.png)
 
 Точность у всех реализаций больше 0.85 - хватило одной эпохи, подошли параметры: размер батча - 200, learning rate - 0.1, функция нормировки - Softmax, функция активации - tanh, функция ошибки - CrossEntropy, слои полносвязные. Оптимальные значение из представленных - 2 или 3 слоя.
 
 Рассмотрены три функции активации: сигмоида, ReLu, tahn. В качестве начальных параметров выбрана двухслойная сеть и параметры : размер батча - 200, количество эпох - 5, learning rate - 0.1, функция нормировки - Softmax, функция ошибки - CrossEntropy, количество нейронов на втором слое - 20.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/sigmoid.png)
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/relu.png)
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/tanh.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/sigmoid.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/relu.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/tanh.png)
 
 Наглядно видно, что разные функции активации дают разную точность классификации, в данном случае RELU и tanh дали примерно одинаковый результат accuracy (0.92 и 0.92 на тестовой соответственно), в то время как sigmoid оказался хуже (0.88 на тестовой)
 
 Рассмотрено различное число нейронов в промежуточном слое для двухслойного персептрона и параметры: размер батча - 200, количество эпох - 1, learning rate - 0.1, функция нормировки - Softmax, функция ошибки - CrossEntropy, функция активации - Tanh.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/num_neurons.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/num_neurons.png)
 
 В результате лучшие значеня при количестве нейронов больше 10.
 
 Реализация четырехслойного персептрона с функцией активации - Tanh и количеством нейронов на каждом скрытом уровне - 20.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/res1.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/res1.png)
 
 Результаты для датасета - FachionMnist:
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/res2.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/res2.png)
 
 параметры: размер батча - 150, количество эпох - 10, learning rate - 0.1, функция нормировки - Softmax, функция ошибки - CrossEntropy, функция активации - Tanh, три полносвязных слоя.
 
@@ -101,35 +101,35 @@
 
 ![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/1l.png)
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/1ll.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/1ll.png)
 
 Для четырехслойного персептрона точность больше 0.85 - хватило 5 эпох, подошли параметры: размер батча - 200, learning rate - 0.001, функция нормировки - log_Softmax, функция активации - relu, функция ошибки - nll_loss.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/4l.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/4l.png)
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/4ll.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/4ll.png)
 
 Сравним различные гиепрпараметры на примере двухслойного персептрона (т.к. даже при одном слое точно получилась высокой, для теста - больше 90%). Рассмотрим такие передаточные функции как: сигмоида, ReLu, tahn, selu.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/reluu.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/reluu.png)
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/tanhh.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/tanhh.png)
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/sigmoidd.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/sigmoidd.png)
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/selu.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/selu.png)
 
 В качестве начальных параметров выбрана двухслойная сеть и параметры : размер батча - 200, количество эпох - 5, количество нейронов на втором слое - 150, learning rate - 0.001, функция нормировки - log_Softmax, функция ошибки - nll_loss. Результаты на тестовой выборке relu - 96.9, tanh - 96.6, sigmoid - 95.1, selu - 96.3.
 
 Рассмотрим различное число слоев на промежуточном уровне.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/nunn.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/nunn.png)
 
 В качестве начальных параметров выбрана двухслойная сеть и параметры : размер батча - 200, количество эпох - 5, learning rate - 0.001, функция нормировки - log_Softmax, функция активации - relu, функция ошибки - nll_loss. Точность становится стобильно 96% начиная с 40 нейронов.
 
 Рассмотрим датасет fashionMNIST.
 
-![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/fashionm.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/blob/main/pics/fashionm.png)
 
 Получили точность выше 85% для четырехслойного персептрона.
 
