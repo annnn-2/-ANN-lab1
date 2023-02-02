@@ -57,7 +57,7 @@
 
 Реализован однослойный персептрон. Обучениие дало точность - accuracy=0.8720238095238095. 
 
-![alt text](https://github.com/MAILabs-AI-2022/lab_perceptron-annnn-2/blob/main/1layer.png)
+![alt text](https://github.com/annnn-2/ANN-lab1/tree/main/pics/1layer.png)
 
 Точность больше 0.85 - хватило одной эпохи, подошли параметры: размер батча - 200, learning rate - 0.1, функция нормировки - Softmax, функция активации - tanh, функция ошибки - CrossEntropy.
 
